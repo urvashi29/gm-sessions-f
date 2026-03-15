@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- internal css  -->
+    <style>
+      .card {
+        background-color: teal;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p id="sample">Hello</p>
+    <!-- inline css  -->
+    <p id="lorem" style="color: red">Lorem, ipsum.</p>
+    <div id="divEle">Lorem ipsum dolor sit amet.</div>
+
+    <ul>
+      <li class="item">HTML</li>
+      <li class="item">CSS</li>
+      <li class="item">JS</li>
+    </ul>
+
+    <button onclick="changeBackground()">Change</button>
+
+    <form for="age">
+      <input id="age" name="age" placeholder="Please enter age" value="" />
+      <button type="button" onclick="captureUserInput()">Submit</button>
+    </form>
+
+    <p id="age-display"></p>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
